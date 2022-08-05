@@ -5,7 +5,7 @@ export default function Lash(props) {
   const deleteLash = () => {
 
     axios
-      .delete(`http://localhost:5000/product/${props.lashData.id}`)
+      .delete(`http://localhost:5000/product-del/${props.lashData.id}`)
       .then((response) => console.log("success", response));
   };
 
@@ -16,7 +16,7 @@ export default function Lash(props) {
         <h2>{props.lashData.name}</h2>
         <p>{props.lashData.price}</p>
         <h4>{props.lashData.description}</h4>
-        <button onClick={deleteLash}>Delete</button> 
+        {/* <button onClick={deleteLash}>Delete</button>  */}
       </div>
     </div>
   );

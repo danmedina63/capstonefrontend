@@ -32,12 +32,16 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="app">
-        <h1>My Work</h1>
-        <div className="values">
-          {this.renderLash()}
+      
+        <div className="app">
+          
+          <h1>My Work</h1>
+          <div className="values">
+            {this.renderLash()}
+          </div>
+        
         </div>
-      </div>
+    
     );
   }
 }

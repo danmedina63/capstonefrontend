@@ -37,36 +37,37 @@ export default function addLash() {
     }
 
   return (
-    <div className="add-lash">
-        <h1 className="add-lash-title">
-            Enter your Lash info
-        </h1>
-        <form className="add-lash-form" onSubmit={postLash}>
-            <input className="add-lash-form-input" onChange={(event) => setName(event.target.value)} 
-            type="text" 
-            placeholder="name" 
-            value={name}
-            />
-            <input className="add-lash-form-input" onChange={(event) => setPrice(event.target.value)}  
-            type="number" 
-            placeholder="price" 
-            value={price}
-            />
-            <textarea
-            className="add-lash-form-textarea"
-            onChange={(event) => setDescription(event.target.value)}
-            type="text"
-            placeholder="description"
-            value={description}
-            />
-            <input className="add-lash-form-image"
-            onChange={(event) => setimgUrl(event.target.value)} 
-            type="url" 
-            placeholder="url"
-            value={imgUrl}
-            />
-            <button type="submit" className="add-lash-form-button">Add Lash!!!</button>
-        </form>
-    </div>
+        <div className="add-lash">
+            <h1 className="add-lash-title">
+                Enter your Lash info
+            </h1>
+            <form className="add-lash-form" onSubmit={postLash}>
+                <input className="add-lash-form-input" onChange={(event) => setName(event.target.value)} 
+                type="text" 
+                placeholder="name" 
+                value={name}
+                />
+                <input className="add-lash-form-input" onChange={(event) => setPrice(event.target.value)}  
+                type="number" 
+                placeholder="price" 
+                value={price}
+                />
+                <textarea
+                className="add-lash-form-textarea"
+                onChange={(event) => setDescription(event.target.value)}
+                type="text"
+                placeholder="description"
+                value={description}
+                />
+                <input className="add-lash-form-image"
+                onChange={(event) => setimgUrl(event.target.value)} 
+                type="url" 
+                placeholder="url"
+                value={imgUrl}
+                />
+                <button type="submit" className="add-lash-form-button">Add Lash!!!</button>
+            </form>
+        </div>
+
   )
 }
