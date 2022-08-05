@@ -28,9 +28,9 @@ body {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+    
 }
 
 @import "./navbar.scss";
-@import "./lashes.scss";
-@import "./login.scss";
-@import "./contact.scss"
+@import "./add-lashes.scss";
+@import "./lashes.scss"

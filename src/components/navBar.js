@@ -10,14 +10,11 @@ export default function Navbar() {
             <NavLink exact className="navbar-link" activeClassName="selected" to="/">
             Home
             </NavLink>
-            <NavLink className="navbar-link" activeClassName="selected" to="/lashes">
+            {/* <NavLink className="navbar-link" activeClassName="selected" to="/lashes">
             Lashes
-            </NavLink>
-            <NavLink className="navbar-link" activeClassName="selected" to="/login">
-                Login
-            </NavLink>
-            <NavLink className="navbar-link" activeClassName="selected" to="/contact">
-                Contact
+            </NavLink> */}
+            <NavLink className="navbar-link" activeClassName="selected" to="/add-lashes">
+                Add Lashes
             </NavLink>
         </div>
     </div>
