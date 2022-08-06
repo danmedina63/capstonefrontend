@@ -13,7 +13,7 @@ export default class App extends Component {
   componentDidMount() {
 
     axios
-      .get("http://127.0.0.1:5000/products")
+      .get("https://dm-rosepetallashes-capbe.herokuapp.com/products")
       .then((response) => {
         console.log(response);
         this.setState({ lash: response.data });

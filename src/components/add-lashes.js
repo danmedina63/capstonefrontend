@@ -18,7 +18,7 @@ export default function addLash() {
     const postLash = (event) => {
         
         axios
-            .post(`http://127.0.0.1:5000/add-product`,
+            .post(`https://dm-rosepetallashes-capbe.herokuapp.com/add-product`,
                 { 
                 name: name,
                 description: description,
